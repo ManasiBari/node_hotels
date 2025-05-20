@@ -34,4 +34,6 @@ router.get("/", (req, res) => {
 });
 
 
+//Export router
+
 module.exports =router;

@@ -1,11 +1,13 @@
 const mongoose = require('mongoose')
+require('dotenv').config();
+
 
 //Delete the MongoDB connection URL
 mongoose.connect('mongodb://localhost:27017/hotels', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
-
+const mongoURL = "mongodb+srv://node_hello:helloworld@cluster0.8dfs2ao.mongodb.net/"
 
 
 //Get the default connection
